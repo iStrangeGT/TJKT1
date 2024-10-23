@@ -24,6 +24,11 @@ export const kumar = localFont({
 export const metadata: Metadata = {
   title: "Official Website XITJKT1",
   description: "XITJKT1 SMKN1 BDL",
+  keywords: "XITJKT1, SMKN1 Bandar Lampung, Kelas XI TJKT1, Teknik Jaringan Komputer Dan Telekomukasi",
+  authors: [{name: "Agam Armanda, Nizar Romansyah, Galang Ramadhan, Ardika Maulana Putra, Pahre Fadil"}],
+  creator: "XITJKT1",
+  publisher: "XITJKT1",
+
 };
 
 export default function RootLayout({
