@@ -1,4 +1,5 @@
 import { gatau, university, kumar } from "./layout";
+import React from "react";
 
 // Header Component
 const Header = () => {
@@ -50,6 +51,8 @@ const Footer = () => {
     </footer>
   );
 };
+
+const image = Array.from({ length: 35}, (_, index) => ``)
 
 // Main App Component
 export default function App() {
