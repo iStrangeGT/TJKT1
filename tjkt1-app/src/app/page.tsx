@@ -1,6 +1,7 @@
 import { gatau, university, kumar } from "./layout";
 import React from "react";
-import 'aos/dist/aos.css';
+import { useState } from "react";
+
 
 // Header Component
 const Header = () => {
@@ -46,7 +47,7 @@ const MainContent = () => {
 const Footer = () => {
   return (
     <footer className="bg-background1 p-4 text-center">
-      <p className={`text-text1 ${gatau.className}`}>© 2024 XITJKT1. All rights reserved.</p>
+      <p className={`text-text1 ${kumar.className}`}>Copyright 2024 XITJKT1</p>
     </footer>
   );
 };
