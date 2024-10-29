@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   title: "Official Website XITJKT1",
   description: "XITJKT1 SMKN1 BDL",
   keywords: "XITJKT1, SMKN1 Bandar Lampung, Kelas XI TJKT1, Teknik Jaringan Komputer Dan Telekomukasi",
-  authors: [{name: "Agam Armanda, Nizar Romansyah, Galang Ramadhan, Ardika Maulana Putra, Pahre Fadil"}],
+  authors: [{name: "Agam Armanda, Nizar Rohmansyah, Galang Ramadhan, Ardika Maulana Putra, Pahre Fadil"}],
   creator: "XITJKT1",
   publisher: "XITJKT1",
 
@@ -42,8 +42,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="w-dvw h-dvh flex flex-col select-none overflow-y-scroll bg-white">
-        <nav className="flex items-center justify-between flex-wrap bg-[#00425B] p-4">
-        <div className={`w-full text-white text-center text-3xl ${university.className}`}>
+        <nav className="flex items-center justify-between flex-wrap text-white p-4">
+        <div className={`w-full text-[#00425B] text-center text-3xl ${university.className}`}>
           XITJKT1
         </div>
 
@@ -51,16 +51,16 @@ export default function RootLayout({
 
       </nav>
       <div className={`flex text-sm p-4 font-bold justify-center gap-24 text-[#00425B] ${gatau.className}`}>
-        <a href="/" className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-600 hover:bg-white rounded hover:border-transparent py-0 px-1 mr-4">
+        <a href="/" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-0 px-1 mr-4">
           Home
         </a>
-        <a href="/gallery" className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-600 hover:bg-white rounded hover:border-transparent py-0 px-1 mr-4">
+        <a href="/gallery" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-0 px-1 mr-4">
           Gallery
         </a>
-        <a href="/about" className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-600 hover:bg-white rounded hover:border-transparent py-0 px-1">
+        <a href="/about" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-0 px-1">
           About
         </a>
-        <a href="/members" className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-600 hover:bg-white rounded hover:border-transparent py-0 px-1">
+        <a href="/members" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-0 px-1">
           Members
         </a>
       </div>
