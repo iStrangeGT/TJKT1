@@ -1,4 +1,4 @@
-import { gatau, university } from "./layout";
+import { gatau, university } from "../layout";
 
 export default function App() {
   return (

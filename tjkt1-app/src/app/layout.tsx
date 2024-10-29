@@ -41,7 +41,34 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="w-dvw h-dvh flex flex-col select-none overflow-y-scroll bg-white">
+        <nav className="flex items-center justify-between flex-wrap bg-[#00425B] p-4">
+        <div className={`w-full text-white text-center text-3xl ${university.className}`}>
+          XITJKT1
+        </div>
+
+        
+
+      </nav>
+      <div className={`flex text-sm p-4 font-bold justify-center gap-24 text-[#00425B] ${gatau.className}`}>
+        <a href="/" className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-600 hover:bg-white rounded hover:border-transparent py-0 px-1 mr-4">
+          Home
+        </a>
+        <a href="/gallery" className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-600 hover:bg-white rounded hover:border-transparent py-0 px-1 mr-4">
+          Gallery
+        </a>
+        <a href="/about" className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-600 hover:bg-white rounded hover:border-transparent py-0 px-1">
+          About
+        </a>
+        <a href="/members" className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-600 hover:bg-white rounded hover:border-transparent py-0 px-1">
+          Members
+        </a>
+      </div>
+      {children}
+      <footer className="bg-[#00425B] p-4 mt-3 text-left">
+      <p className={`text-text1 ${gatau.className}`}>Copyright 2024 XITJKT1</p>
+    </footer>
+    </div>
       </body>
     </html>
   );
