@@ -11,7 +11,7 @@ export default function Gallery() {
     { src: "/6.jpeg", alt: "Image 6", caption: "miaw 2" },
     { src: "/7.jpeg", alt: "Image 7", caption: "miaw 3" },
     { src: "/8.jpeg", alt: "Image 8", caption: "miaw 4" },
-    { src: "/9.jpeg", alt: "Image 9", caption: "miaw 5" },
+    { src: "/9.jpg", alt: "Image 9", caption: "miaw 5" },
     { src: "/10.jpeg", alt: "Image 10", caption: "miaw 6" },
     { src: "/11.jpeg", alt: "Image 11", caption: "miaw 7" },
     { src: "/12.jpeg", alt: "Image 12", caption: "miaw 8" },
@@ -42,7 +42,7 @@ export default function Gallery() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className={`text-4xl text-center text-[#00425B] mb-2 ${university.className}`}>Our Gallery</h1>
+      <h1 className={`text-4xl mt-4 text-center text-[#00425B] mb-2 ${university.className}`}>Our Gallery</h1>
       <p className={`text-center text-[#00425B] mb-8 ${gatau.className}`}>Capturing moments from XI TJKT 1</p>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
