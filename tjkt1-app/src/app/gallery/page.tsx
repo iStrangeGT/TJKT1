@@ -54,6 +54,7 @@ export default function Gallery() {
                 alt={img.alt}
                 width={300}
                 height={300}
+                loading="lazy"
                 className="max-w-full h-auto object-contain"
                 style={{
                     maxHeight: '300px',
