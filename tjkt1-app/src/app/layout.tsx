@@ -51,16 +51,16 @@ export default function RootLayout({
 
       </nav>
       <div className={`flex flex-wrap justify-center items-center px-2 py-3 text-[#00425B] ${gatau.className}`}>
-        <a href="/" className="block whitespace-nowrap mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-1 px-2 md:px-1">
+        <a href="/" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
           Home
         </a>
-        <a href="/gallery" className="block whitespace-nowrap mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-1 px-2 md:px-1">
+        <a href="/gallery" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
           Gallery
         </a>
-        <a href="/about" className="block whitespace-nowrap mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-1 px-2 md:px-1">
+        <a href="/about" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
           About
         </a>
-        <a href="/members" className="block whitespace-nowrap mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-1 px-2 md:px-1">
+        <a href="/members" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
           Members
         </a>
       </div>
