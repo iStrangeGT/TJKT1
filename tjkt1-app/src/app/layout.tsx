@@ -50,17 +50,17 @@ export default function RootLayout({
         
 
       </nav>
-      <div className={`flex text-sm p-4 font-bold justify-center gap-24 text-[#00425B] ${gatau.className}`}>
-        <a href="/" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-0 px-1 mr-4">
+      <div className={`flex flex-wrap justify-center items-center px-2 py-3 text-[#00425B] ${gatau.className}`}>
+        <a href="/" className="block whitespace-nowrap mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-1 px-2 md:px-1">
           Home
         </a>
-        <a href="/gallery" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-0 px-1 mr-4">
+        <a href="/gallery" className="block whitespace-nowrap mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-1 px-2 md:px-1">
           Gallery
         </a>
-        <a href="/about" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-0 px-1">
+        <a href="/about" className="block whitespace-nowrap mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-1 px-2 md:px-1">
           About
         </a>
-        <a href="/members" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-0 px-1">
+        <a href="/members" className="block whitespace-nowrap mt-4 lg:inline-block lg:mt-0 hover:text-white hover:bg-[#00425B] hover:font-medium rounded hover:border-transparent py-1 px-2 md:px-1">
           Members
         </a>
       </div>
