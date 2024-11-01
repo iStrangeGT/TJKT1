@@ -54,9 +54,6 @@ export default function RootLayout({
         <a href="/gallery" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:font-semibold hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
           Gallery
         </a>
-        <a href="/about" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:font-semibold hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
-          About
-        </a>
         <a href="/members" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:font-semibold hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
           Members
         </a>
