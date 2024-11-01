@@ -42,33 +42,30 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="w-dvw h-dvh flex flex-col select-none overflow-y-scroll bg-white">
-        <nav className="flex items-center justify-between flex-wrap text-white p-4">
-        <div className={`w-full text-[#00425B] text-center text-3xl ${university.className}`}>
-          XITJKT1
-        </div>
-
-        
-
-      </nav>
+          <nav className="flex items-center justify-between flex-wrap text-white p-4">
+            <div className={`w-full text-[#00425B] text-center text-3xl ${university.className}`}>
+              XITJKT1
+            </div>
+          </nav>
       <div className={`flex flex-wrap justify-center items-center px-2 py-3 text-[#00425B] ${gatau.className}`}>
-        <a href="/" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
+        <a href="/" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:font-semibold hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
           Home
         </a>
-        <a href="/gallery" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
+        <a href="/gallery" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:font-semibold hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
           Gallery
         </a>
-        <a href="/about" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
+        <a href="/about" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:font-semibold hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
           About
         </a>
-        <a href="/members" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
+        <a href="/members" className="text-xs sm:text-sm font-bold px-3 py-1 mx-3 sm:mx-6 hover:font-semibold hover:text-white hover:bg-[#00425B] rounded transition-colors duration-200">
           Members
         </a>
       </div>
       {children}
-      <footer className="bg-[#00425B] p-4 mt-3 text-left">
-      <p className={`text-text1 ${gatau.className}`}>Copyright 2024 XITJKT1</p>
-    </footer>
-    </div>
+        <footer className="bg-[#00425B] p-4 mt-3 text-left">
+            <p className={`text-text1 ${gatau.className}`}>Copyright 2024 XITJKT1</p>
+          </footer>
+        </div>
       </body>
     </html>
   );
