@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import AOSInit from "@/components/AOSInit";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -41,6 +42,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <AOSInit />
         <div className="w-dvw h-dvh flex flex-col select-none overflow-y-scroll bg-white">
           <nav className="flex items-center justify-between flex-wrap text-white p-4">
             <div className={`w-full text-[#00425B] text-center text-3xl ${university.className}`}>

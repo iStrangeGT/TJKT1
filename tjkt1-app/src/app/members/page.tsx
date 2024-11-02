@@ -1,6 +1,13 @@
+'use client';
+
+import { useState } from 'react';
+import Image from 'next/image';
+import { gatau } from '../layout';
 
 
 export default function App() {
+    const [zoomedIndex, setZoomedIndex] = useState<number |  null>(null);
+
     const data = [
         {
             url: '/default.jpg',
@@ -57,7 +64,16 @@ export default function App() {
             quote: 'g,uykuiukikyyytjyy',
             author: "Agam"
         },
-    ]
+    ];
+
+    const handleZoom = (index: number) => {
+        if (zoomedIndex === index) {
+            setZoomedIndex(null);
+        } else {
+            setZoomedIndex(index);
+        }
+    }
+
   return (
 
 
